@@ -1,0 +1,56 @@
+---
+layout: page
+title: Преподаватели кафедры
+permalink: about/teachers/
+breadcrumb: Преподаватели кафедры
+---
+<divclass="row">
+	{% for teacher in site.data.teachers limit:4 %}
+	<div class="col-md-3 col-sm-3 inner-content">
+		<a href="{{ "about/teachers/{{ teacher.nameLatin }}" | prepend: site.baseurl }} class="inner-content-teacher">
+			<img src="{{ "images/teachers/{{ teacher.nameLatin }}.jpg" | prepend: site.baseurl }} alt="{{ teacher.nameLatin }}" width="240px" height="320px">
+			<h3>{{ teacher.nameFull }}</h3>
+		</a>
+	</div>
+	{% endfor %}
+</div>
+<div class="row">
+	{% for teacher in site.data.teachers limit:4 offset:4 %}
+	<div class="col-md-3 col-sm-3 inner-content">
+		<a href="{{ "about/teachers/{{ teacher.nameLatin }}" | prepend: site.baseurl }} class="inner-content-teacher">
+			<img src="{{ "images/teachers/{{ teacher.nameLatin }}.jpg" | prepend: site.baseurl }} alt="{{ teacher.nameLatin }}" width="240px" height="320px">
+			<h3>{{ teacher.nameFull }}</h3>
+		</a>
+	</div>
+	{% endfor %}
+</div>
+<div class="row">
+	{% for teacher in site.data.teachers limit:4 offset:8 %}
+	<div class="col-md-3 col-sm-3 inner-content">
+		<a href="{{ "about/teachers/{{ teacher.nameLatin }}" | prepend: site.baseurl }} class="inner-content-teacher">
+			<img src="{{ "images/teachers/{{ teacher.nameLatin }}.jpg" | prepend: site.baseurl }} alt="{{ teacher.nameLatin }}" width="240px" height="320px">
+			<h3>{{ teacher.nameFull }}</h3>
+		</a>
+	</div>
+	{% endfor %}
+</div>
+<div class="row">
+	{% for teacher in site.data.teachers limit:4 offset:12 %}
+	<div class="col-md-3 col-sm-3 inner-content">
+		<a href="{{ "about/teachers/{{ teacher.nameLatin }}" | prepend: site.baseurl }} class="inner-content-teacher">
+			<img src="{{ "images/teachers/{{ teacher.nameLatin }}.jpg" | prepend: site.baseurl }} alt="{{ teacher.nameLatin }}" width="240px" height="320px">
+			<h3>{{ teacher.nameFull }}</h3>
+		</a>
+	</div>
+	{% endfor %}
+</div>
+<div class="row">
+	{% for teacher in site.data.teachers limit:4 offset:16 %}
+	<div class="col-md-3 col-sm-3 inner-content">
+		<a href="{{ "about/teachers/{{ teacher.nameLatin }}" | prepend: site.baseurl }} class="inner-content-teacher">
+			<img src="{{ "images/teachers/{{ teacher.nameLatin }}.jpg" | prepend: site.baseurl }} alt="{{ teacher.nameLatin }}" width="240px" height="320px">
+			<h3>{{ teacher.nameFull }}</h3>
+		</a>
+	</div>
+	{% endfor %}
+</div>
