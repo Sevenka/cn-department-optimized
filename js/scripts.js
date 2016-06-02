@@ -8,9 +8,9 @@ $(document).ready(function(){
   	loadedClass: 'owl-loaded row',
   	navContainerClass: 'owl-nav col-md-12',
   	dots: false,
-  	autoplaySpeed: 2000,
+  	autoplaySpeed: 800,
     autoplayTimeout: 4000,
-    navSpeed: 2000,
+    navSpeed: 800,
   	autoplayHoverPause: true,
   	responsive: {
   		0: {
