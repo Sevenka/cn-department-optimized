@@ -4,7 +4,7 @@ title: Лаборатория мобильной связи
 permalink: /about/labs/mobile
 breadcrumb: Лаборатория мобильной связи
 ---
-<a href="{{ "images/inner-pages-photo/lab-mobile-inner.jpg" | prepend: site.baseurl }}" class="swipebox" title="Лаборатория мобильной связи"><img src="{{ "images/inner-pages-photo/lab-mobile-inner.jpg" | prepend: site.baseurl }}" alt="Лаборатория мобильной связи" width="400px" height="300px" class="inner-content-page-image"></a>
+<a href="{{ "images/inner-pages-photo/lab-mobile-inner.jpg" | prepend: site.baseurl }}" class="swipebox" title="Лаборатория мобильной связи"><img src="{{ "images/inner-pages-photo/lab-mobile-inner.jpg" | prepend: site.baseurl }}" alt="Лаборатория мобильной связи" width="400px" height="300px" class="inner-content-page-image img-responsive"></a>
 
 ## Лаборатория мобильной связи
 

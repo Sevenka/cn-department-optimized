@@ -4,7 +4,7 @@ title: Лаборатория информационных сетей связи
 permalink: /about/labs/iss
 breadcrumb: Лаборатория информационных сетей связи
 ---
-<a href="{{ "images/inner-pages-photo/lab-iss-inner.jpg" | prepend: site.baseurl }}" class="swipebox" title="Лаборатория информационных сетей связи"><img src="{{ "images/inner-pages-photo/lab-iss-inner.jpg" | prepend: site.baseurl }}" alt="Лаборатория информационных сетей связи" width="400px" height="300px" class="inner-content-page-image"></a>
+<a href="{{ "images/inner-pages-photo/lab-iss-inner.jpg" | prepend: site.baseurl }}" class="swipebox" title="Лаборатория информационных сетей связи"><img src="{{ "images/inner-pages-photo/lab-iss-inner.jpg" | prepend: site.baseurl }}" alt="Лаборатория информационных сетей связи" width="400px" height="300px" class="inner-content-page-image img-responsive"></a>
 
 ## Лаборатория информационных сетей связи
 
@@ -22,7 +22,7 @@ breadcrumb: Лаборатория информационных сетей св�
 - ЦАТС «Протон».
 - Каналообразующая аппаратура.
 
-<a href="{{ "images/inner-pages-photo/lab-iss-inner2.jpg" | prepend: site.baseurl }}" class="swipebox" title="Стойка ИКМ-120"><img src="{{ "images/inner-pages-photo/lab-iss-inner2.jpg" | prepend: site.baseurl }}" alt="Лаборатория информационных сетей связи" width="400px" height="300px" class="inner-content-page-image"></a>
+<a href="{{ "images/inner-pages-photo/lab-iss-inner2.jpg" | prepend: site.baseurl }}" class="swipebox" title="Стойка ИКМ-120"><img src="{{ "images/inner-pages-photo/lab-iss-inner2.jpg" | prepend: site.baseurl }}" alt="Лаборатория информационных сетей связи" width="400px" height="300px" class="inner-content-page-image img-responsive"></a>
 
 Сервера отвечают за управление учетными записями пользователей, доменную систему имен, организацию файлового и почтового серверов, серверов удаленного доступа.
 

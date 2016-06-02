@@ -4,11 +4,11 @@ title: Преподаватели кафедры
 permalink: about/teachers/
 breadcrumb: Преподаватели кафедры
 ---
-<divclass="row">
+<div class="row">
 	{% for teacher in site.data.teachers limit:4 %}
 	<div class="col-md-3 col-sm-3 inner-content">
-		<a href="{{ "about/teachers/{{ teacher.nameLatin }}" | prepend: site.baseurl }} class="inner-content-teacher">
-			<img src="{{ "images/teachers/{{ teacher.nameLatin }}.jpg" | prepend: site.baseurl }} alt="{{ teacher.nameLatin }}" width="240px" height="320px">
+		<a href="{{ site.baseurl }}about/teachers/{{ teacher.nameLatin }}" class="inner-content-teacher">
+			<img src="{{ site.baseurl }}images/teachers/{{ teacher.nameLatin }}.jpg" alt="{{ teacher.nameLatin }}" width="240px" height="320px" class="img-responsive">
 			<h3>{{ teacher.nameFull }}</h3>
 		</a>
 	</div>
@@ -17,8 +17,8 @@ breadcrumb: Преподаватели кафедры
 <div class="row">
 	{% for teacher in site.data.teachers limit:4 offset:4 %}
 	<div class="col-md-3 col-sm-3 inner-content">
-		<a href="{{ "about/teachers/{{ teacher.nameLatin }}" | prepend: site.baseurl }} class="inner-content-teacher">
-			<img src="{{ "images/teachers/{{ teacher.nameLatin }}.jpg" | prepend: site.baseurl }} alt="{{ teacher.nameLatin }}" width="240px" height="320px">
+		<a href="{{ site.baseurl }}about/teachers/{{ teacher.nameLatin }}" class="inner-content-teacher">
+			<img src="{{ site.baseurl }}images/teachers/{{ teacher.nameLatin }}.jpg" alt="{{ teacher.nameLatin }}" width="240px" height="320px" class="img-responsive">
 			<h3>{{ teacher.nameFull }}</h3>
 		</a>
 	</div>
@@ -27,8 +27,8 @@ breadcrumb: Преподаватели кафедры
 <div class="row">
 	{% for teacher in site.data.teachers limit:4 offset:8 %}
 	<div class="col-md-3 col-sm-3 inner-content">
-		<a href="{{ "about/teachers/{{ teacher.nameLatin }}" | prepend: site.baseurl }} class="inner-content-teacher">
-			<img src="{{ "images/teachers/{{ teacher.nameLatin }}.jpg" | prepend: site.baseurl }} alt="{{ teacher.nameLatin }}" width="240px" height="320px">
+		<a href="{{ site.baseurl }}about/teachers/{{ teacher.nameLatin }}" class="inner-content-teacher">
+			<img src="{{ site.baseurl }}images/teachers/{{ teacher.nameLatin }}.jpg" alt="{{ teacher.nameLatin }}" width="240px" height="320px" class="img-responsive">
 			<h3>{{ teacher.nameFull }}</h3>
 		</a>
 	</div>
@@ -37,8 +37,8 @@ breadcrumb: Преподаватели кафедры
 <div class="row">
 	{% for teacher in site.data.teachers limit:4 offset:12 %}
 	<div class="col-md-3 col-sm-3 inner-content">
-		<a href="{{ "about/teachers/{{ teacher.nameLatin }}" | prepend: site.baseurl }} class="inner-content-teacher">
-			<img src="{{ "images/teachers/{{ teacher.nameLatin }}.jpg" | prepend: site.baseurl }} alt="{{ teacher.nameLatin }}" width="240px" height="320px">
+		<a href="{{ site.baseurl }}about/teachers/{{ teacher.nameLatin }}"class="inner-content-teacher">
+			<img src="{{ site.baseurl }}images/teachers/{{ teacher.nameLatin }}.jpg"alt="{{ teacher.nameLatin }}" width="240px" height="320px" class="img-responsive">
 			<h3>{{ teacher.nameFull }}</h3>
 		</a>
 	</div>
@@ -47,8 +47,8 @@ breadcrumb: Преподаватели кафедры
 <div class="row">
 	{% for teacher in site.data.teachers limit:4 offset:16 %}
 	<div class="col-md-3 col-sm-3 inner-content">
-		<a href="{{ "about/teachers/{{ teacher.nameLatin }}" | prepend: site.baseurl }} class="inner-content-teacher">
-			<img src="{{ "images/teachers/{{ teacher.nameLatin }}.jpg" | prepend: site.baseurl }} alt="{{ teacher.nameLatin }}" width="240px" height="320px">
+		<a href="{{ site.baseurl }}about/teachers/{{ teacher.nameLatin }}"class="inner-content-teacher">
+			<img src="{{ site.baseurl }}images/teachers/{{ teacher.nameLatin }}.jpg" alt="{{ teacher.nameLatin }}" width="240px" height="320px" class="img-responsive">
 			<h3>{{ teacher.nameFull }}</h3>
 		</a>
 	</div>

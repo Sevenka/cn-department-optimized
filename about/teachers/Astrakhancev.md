@@ -4,7 +4,7 @@ title: Астраханцев Андрей Анатольевич
 permalink: /about/teachers/Astrakhancev
 breadcrumb: Астраханцев Андрей Анатольевич
 ---
-<img src="{{ "images/teachers/Astrakhancev.jpg" | prepend: site.baseurl }}" alt="Astrakhancev" width="240px" height="320px" class="inner-content-page-image"> 
+<img src="{{ "/images/teachers/Astrakhancev.jpg" | prepend: site.baseurl }}" alt="Astrakhancev" width="240px" height="320px" class="inner-content-page-image"> 
 
 ## Астраханцев Андрей Анатольевич
 

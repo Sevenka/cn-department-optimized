@@ -250,6 +250,10 @@ footer {
 footer a {
 	color: #fff;
 }
+.footer-link {
+	border-right: 1px solid #fff;
+	padding-right: 5px;
+}
 /*-Inner pages-*/
 .wrapper {
 	background: url("../images/main-bg.jpg") no-repeat center top, #0d5b8c;
@@ -338,9 +342,8 @@ footer a {
 		width: 183px;
 		height: 183px;
 	}
-	a[href*="teachers/"] .inner-content-image {
-		width: 180px;
-		height: 240px;
+	.inner-header {
+		font-size: 21px;
 	}
 }
 @media screen and (max-width: 991px) {
@@ -369,31 +372,15 @@ footer a {
 		margin: 0;
 		text-align: center;
 	}
-	.inner-content-image {
-		width: 190px;
-		height: 190px;
-	}
-	a[href*="teachers/"] .inner-content-image {
-		width: 160px;
-		height: 213px;
-	}
-	img[src*="specializations"] + h2 {
-		font-size: 20px;
+	.inner-header {
+		font-size: 16px;
 	}
 }
 @media screen and (max-width: 767px) {
 	.navbar-collapse > .navbar-nav > li > a {
 		padding: 15px 16px;
 	}
-	.inner-content-image {
-		width: 283px;
-		height: 283px;
-	}
-	a[href*="teachers/"] .inner-content-image {
-		width: 240px;
-		height: 320px;
-	}
-	img[src*="specializations"] + h2 {
+	.inner-header {
 		font-size: 25px;
 	}
 }
@@ -407,11 +394,6 @@ footer a {
 	.main-header {
 		padding-bottom: 29px;
 	}
-	.inner-content-page-image {
-		float: none;
-		display: block;
-		margin: 0 auto;
-	}
 }
 @media screen and (max-width: 498px) {
 	.main-header h1 {
@@ -420,11 +402,5 @@ footer a {
 	}
 	.main-header p {
 		font-size: 20px;
-	}
-}
-@media screen and (max-width: 430px) {
-	.inner-content-page-image {
-		width: 270px;
-		height: 170px;
 	}
 }
