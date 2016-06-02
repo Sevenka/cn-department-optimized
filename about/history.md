@@ -4,7 +4,7 @@ title: История кафедры
 permalink: /about/history/
 breadcrumb: История кафедры
 ---
-<a href="{{ "images/history-inner.jpg" | prepend: site.baseurl }}"><img src="{{ "images/inner-pages-photo/history-inner.jpg" | prepend: site.baseurl }}" alt="История кафедры «Сети связи»" width="300px" height="400px" class="inner-content-page-image"></a>
+<a href="{{ "images/history-inner.jpg" | prepend: site.baseurl }}"><img src="{{ "images/inner-pages-photo/history-inner.jpg" | prepend: site.baseurl }}" alt="История кафедры «Сети связи»" width="300px" height="400px" class="inner-content-page-image img-responsive"></a>
 
 ## История кафедры «Сети связи»
 
