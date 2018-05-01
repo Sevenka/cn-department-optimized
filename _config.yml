@@ -9,7 +9,7 @@
 title: Кафедра "Сети связи"
 description: > # this means to ignore newlines until "baseurl:"
   Интернет представительство кафедры "Сети связи"
-baseurl: "/cn-department/" # the subpath of your site, e.g. /blog
+baseurl: "/cn-department-optimized/" # the subpath of your site, e.g. /blog
 url: "http://sevenka.github.io" # the base hostname & protocol for your site
 data source: data
 
