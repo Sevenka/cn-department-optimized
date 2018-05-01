@@ -155,6 +155,9 @@ a:visited, a:focus{
 .owl-carousel {
 	list-style-type: none;
 }
+.owl-carousel .owl-item img {
+	width: auto;
+}
 .owl-stage-outer {
 	right: 38px;
 }

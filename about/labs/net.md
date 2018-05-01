@@ -4,7 +4,7 @@ title: Лаборатория программного обеспечения И
 permalink: /about/labs/net
 breadcrumb: Лаборатория программного обеспечения ИСС
 ---
-<a href="{{ "images/inner-pages-photo/lab-net-inner.jpg" | prepend: site.baseurl }}" class="swipebox" title="Лаборатория программного обеспечения ИСС"><img src="{{ "images/inner-pages-photo/lab-net-inner.jpg" | prepend: site.baseurl }}" alt="Лаборатория программного обеспечения ИСС" width="400px" height="300px" class="inner-content-page-image img-responsive"></a>
+<a href="{{ "images/inner-pages-photo/original/lab-net-inner.jpg" | prepend: site.baseurl }}" class="swipebox" title="Лаборатория программного обеспечения ИСС"><img src="{{ "images/inner-pages-photo/small/lab-net-inner.jpg" | prepend: site.baseurl }}" alt="Лаборатория программного обеспечения ИСС" width="400px" height="300px" class="inner-content-page-image img-responsive"></a>
 
 ## Лаборатория программного обеспечения информационных сетей связи и Internet-технологий
 
@@ -17,7 +17,7 @@ breadcrumb: Лаборатория программного обеспечени
 - Локальная сеть, которая объединяет все компьютеры с помощью 16-портового коммутатора D-Link DES-1016D. Сеть обеспечивает скорость передачи данных 100 Мбит/сек. Локальная сеть лаборатории подключена к локальной сети кафедры, а через нее – к сети университета и к Интернету.
 - Беспроводная локальная сеть, которая объединяет компьютеры с помощью точки доступа и Wi-Fi сетевых адаптеров.
 
-<a href="{{ "images/inner-pages-photo/lab-net-inner2.jpg" | prepend: site.baseurl }}" class="swipebox" title="Работа за ПК"><img src="{{ "images/inner-pages-photo/lab-net-inner2.jpg" | prepend: site.baseurl }}" alt="Лаборатория программного обеспечения ИСС" width="400px" height="300px" class="inner-content-page-image img-responsive"></a>
+<a href="{{ "images/inner-pages-photo/original/lab-net-inner2.jpg" | prepend: site.baseurl }}" class="swipebox" title="Работа за ПК"><img src="{{ "images/inner-pages-photo/small/lab-net-inner2.jpg" | prepend: site.baseurl }}" alt="Лаборатория программного обеспечения ИСС" width="400px" height="300px" class="inner-content-page-image img-responsive"></a>
 
 Лабораторный практикум проходит по таким дисциплинам:
 
