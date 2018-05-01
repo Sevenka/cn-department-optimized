@@ -6,7 +6,7 @@ breadcrumb: История кафедры
 ---
 ## История кафедры «Сети связи»
 
-<a href="{{ "/images/inner-pages-photo/history-inner.jpg" | prepend: site.baseurl }}" class="swipebox" title="Лаборатория цепей, сигналов и схемотехники"><img src="{{ "/images/inner-pages-photo/history-inner.jpg" | prepend: site.baseurl }}" alt="История кафедры «Сети связи»" width="300px" height="400px" class="inner-content-page-image"></a>
+<a href="{{ "/images/inner-pages-photo/original/history-inner.jpg" | prepend: site.baseurl }}" class="swipebox" title="Лаборатория цепей, сигналов и схемотехники"><img src="{{ "/images/inner-pages-photo/small/history-inner.jpg" | prepend: site.baseurl }}" alt="История кафедры «Сети связи»" width="300px" height="400px" class="inner-content-page-image"></a>
 
 В апреле 1962 г. на базе Горного института создается Харьковский институт горного машиностроения, автоматики и вычислительной техники – ХИГМАВТ, а в 1963 году в нем открывается радиотехнический факультет – РТФ.
 
