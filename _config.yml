@@ -13,6 +13,9 @@ baseurl: "/cn-department/" # the subpath of your site, e.g. /blog
 url: "http://sevenka.github.io" # the base hostname & protocol for your site
 data source: data
 
+gems:
+  - jekyll-minifier
+
 # Build settings
 markdown: kramdown
 include: ["_data/teachers.yml"]
